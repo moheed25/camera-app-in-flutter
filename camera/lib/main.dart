@@ -1,3 +1,4 @@
+import 'package:camera/Widgets/intro.dart';
 import 'package:camera/home.dart';
 import 'package:flutter/material.dart';
 
@@ -15,9 +16,6 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      debugShowCheckedModeBanner: false,
-      home: Home(),
-    );
+    return MaterialApp(debugShowCheckedModeBanner: false, home: SplashScreen());
   }
 }

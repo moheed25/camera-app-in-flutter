@@ -398,19 +398,7 @@ class _HomeState extends State<Home> {
                 ),
               )
 
-              // Container(
-              //   child: GridView.builder(
-              //     //  shrinkWrap: false,
-              //     //scrollDirection: Axis.vertical,
-              //     itemCount: Model.length,
-              //     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-              //         crossAxisCount: 2, crossAxisSpacing: 4, mainAxisSpacing: 4),
-              //     itemBuilder: (BuildContext context, int index) {
-              //       return Image.asset(Model[index]);
-              //     },
-              //   ),
-              // ),
-            ],
+                       ],
           ),
         ),
       ),
